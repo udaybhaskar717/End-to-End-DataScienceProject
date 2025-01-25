@@ -1,6 +1,6 @@
-# End-to-End Data Science Project: Comprehensive Workflow
+# Wine Quality Prediction Using Machine Learning
 
-Welcome to the **End-to-End Data Science Project: Comprehensive Workflow** repository. This project demonstrates a structured approach to implementing, validating, and deploying machine learning solutions, showcasing expertise in all stages of the data science lifecycle.
+Welcome to the **Wine Quality Prediction Using Machine Learning** repository. This project demonstrates a structured approach to implementing, validating, and deploying machine learning solutions, showcasing expertise in all stages of the data science lifecycle.
 
 ## Project Overview
 
