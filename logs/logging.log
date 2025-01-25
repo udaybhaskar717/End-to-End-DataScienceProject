@@ -113,3 +113,445 @@ x============x]
 [2025-01-25 10:52:38,592: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<<
 
 x============x]
+[2025-01-25 11:12:00,888: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 11:12:00,899: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 11:12:00,922: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 11:12:00,930: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 11:12:00,936: INFO: common: Craeted directory at:artifacts/data_transformation]
+[2025-01-25 11:12:37,500: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 11:12:37,504: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 11:12:37,509: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 11:12:37,516: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 11:12:37,519: INFO: common: Craeted directory at:artifacts/data_transformation]
+[2025-01-25 11:49:08,299: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 11:49:08,314: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 11:49:08,345: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 11:49:08,349: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 11:49:08,351: INFO: common: Craeted directory at:artifacts/data_transformation]
+[2025-01-25 11:49:08,819: INFO: 328187468: Splitted data into training and test sets]
+[2025-01-25 11:49:08,820: INFO: 328187468: (1199, 12)]
+[2025-01-25 11:49:08,821: INFO: 328187468: (400, 12)]
+[2025-01-25 12:05:45,338: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<<<]
+[2025-01-25 12:05:45,377: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 12:05:45,379: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 12:05:45,412: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 12:05:45,417: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 12:05:45,417: INFO: common: Craeted directory at:artifacts/data_ingestion]
+[2025-01-25 12:05:45,418: INFO: data_ingestion: File already exists]
+[2025-01-25 12:05:45,513: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<<
+
+x============x]
+[2025-01-25 12:05:45,513: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<<<]
+[2025-01-25 12:05:45,515: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 12:05:45,517: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 12:05:45,519: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 12:05:45,520: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 12:05:45,520: INFO: common: Craeted directory at:artifacts/data_validation]
+[2025-01-25 12:05:45,628: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<<
+
+x============x]
+[2025-01-25 12:05:45,628: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<<<]
+[2025-01-25 12:05:45,630: ERROR: data_transformation_pipeline: Your data scheme is not valid]
+Traceback (most recent call last):
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 21, in initiate_data_transformation
+    raise Exception("Your data scheme is not valid")
+Exception: Your data scheme is not valid
+[2025-01-25 12:05:45,643: ERROR: main: Your data scheme is not valid]
+Traceback (most recent call last):
+  File "D:\MLops\End-to-End-DataScienceProject\main.py", line 31, in <module>
+    obj.initiate_data_transformation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 24, in initiate_data_transformation
+    raise e
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 21, in initiate_data_transformation
+    raise Exception("Your data scheme is not valid")
+Exception: Your data scheme is not valid
+[2025-01-25 12:07:44,646: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<<<]
+[2025-01-25 12:07:44,648: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 12:07:44,649: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 12:07:44,650: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 12:07:44,651: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 12:07:44,652: INFO: common: Craeted directory at:artifacts/data_ingestion]
+[2025-01-25 12:07:44,652: INFO: data_ingestion: File already exists]
+[2025-01-25 12:07:44,655: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<<
+
+x============x]
+[2025-01-25 12:07:44,656: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<<<]
+[2025-01-25 12:07:44,659: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 12:07:44,660: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 12:07:44,663: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 12:07:44,664: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 12:07:44,665: INFO: common: Craeted directory at:artifacts/data_validation]
+[2025-01-25 12:07:44,683: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<<
+
+x============x]
+[2025-01-25 12:07:44,684: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<<<]
+[2025-01-25 12:07:44,685: ERROR: data_transformation_pipeline: Your data scheme is not valid]
+Traceback (most recent call last):
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 21, in initiate_data_transformation
+    raise Exception("Your data scheme is not valid")
+Exception: Your data scheme is not valid
+[2025-01-25 12:07:44,686: ERROR: main: Your data scheme is not valid]
+Traceback (most recent call last):
+  File "D:\MLops\End-to-End-DataScienceProject\main.py", line 31, in <module>
+    obj.initiate_data_transformation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 24, in initiate_data_transformation
+    raise e
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 21, in initiate_data_transformation
+    raise Exception("Your data scheme is not valid")
+Exception: Your data scheme is not valid
+[2025-01-25 12:07:56,578: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<<<]
+[2025-01-25 12:07:56,580: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 12:07:56,581: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 12:07:56,582: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 12:07:56,583: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 12:07:56,583: INFO: common: Craeted directory at:artifacts/data_ingestion]
+[2025-01-25 12:07:56,583: INFO: data_ingestion: File already exists]
+[2025-01-25 12:07:56,586: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<<
+
+x============x]
+[2025-01-25 12:07:56,587: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<<<]
+[2025-01-25 12:07:56,590: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 12:07:56,590: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 12:07:56,593: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 12:07:56,593: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 12:07:56,593: INFO: common: Craeted directory at:artifacts/data_validation]
+[2025-01-25 12:07:56,679: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<<
+
+x============x]
+[2025-01-25 12:07:56,681: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<<<]
+[2025-01-25 12:07:56,684: ERROR: data_transformation_pipeline: Your data scheme is not valid]
+Traceback (most recent call last):
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 21, in initiate_data_transformation
+    raise Exception("Your data scheme is not valid")
+Exception: Your data scheme is not valid
+[2025-01-25 12:07:56,691: ERROR: main: Your data scheme is not valid]
+Traceback (most recent call last):
+  File "D:\MLops\End-to-End-DataScienceProject\main.py", line 31, in <module>
+    obj.initiate_data_transformation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 24, in initiate_data_transformation
+    raise e
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 21, in initiate_data_transformation
+    raise Exception("Your data scheme is not valid")
+Exception: Your data scheme is not valid
+[2025-01-25 12:11:10,446: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<<<]
+[2025-01-25 12:11:10,449: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 12:11:10,451: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 12:11:10,454: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 12:11:10,455: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 12:11:10,456: INFO: common: Craeted directory at:artifacts/data_ingestion]
+[2025-01-25 12:11:10,457: INFO: data_ingestion: File already exists]
+[2025-01-25 12:11:10,461: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<<
+
+x============x]
+[2025-01-25 12:11:10,461: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<<<]
+[2025-01-25 12:11:10,466: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 12:11:10,467: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 12:11:10,470: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 12:11:10,471: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 12:11:10,472: INFO: common: Craeted directory at:artifacts/data_validation]
+[2025-01-25 12:11:10,502: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<<
+
+x============x]
+[2025-01-25 12:11:10,503: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<<<]
+[2025-01-25 12:11:10,505: ERROR: data_transformation_pipeline: Your data scheme is not valid]
+Traceback (most recent call last):
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 21, in initiate_data_transformation
+    raise Exception("Your data scheme is not valid")
+Exception: Your data scheme is not valid
+[2025-01-25 12:11:10,506: ERROR: main: Your data scheme is not valid]
+Traceback (most recent call last):
+  File "D:\MLops\End-to-End-DataScienceProject\main.py", line 31, in <module>
+    obj.initiate_data_transformation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 24, in initiate_data_transformation
+    raise e
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 21, in initiate_data_transformation
+    raise Exception("Your data scheme is not valid")
+Exception: Your data scheme is not valid
+[2025-01-25 12:11:59,672: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<<<]
+[2025-01-25 12:11:59,674: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 12:11:59,675: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 12:11:59,677: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 12:11:59,677: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 12:11:59,677: INFO: common: Craeted directory at:artifacts/data_ingestion]
+[2025-01-25 12:13:26,880: INFO: data_ingestion: artifacts/data_ingestion/data.zip download ! with the following info:
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D2D8:08FD:2D56B:43532:6794880E
+Accept-Ranges: bytes
+Date: Sat, 25 Jan 2025 06:43:26 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100030-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1737787407.619947,VS0,VE254
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 657880e3ccdf5735b98d003f7fca5c71b4e14869
+Expires: Sat, 25 Jan 2025 06:48:26 GMT
+Source-Age: 0
+
+]
+[2025-01-25 12:13:26,905: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<<
+
+x============x]
+[2025-01-25 12:13:26,905: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<<<]
+[2025-01-25 12:13:26,907: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 12:13:26,908: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 12:13:26,910: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 12:13:26,910: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 12:13:26,912: INFO: common: Craeted directory at:artifacts/data_validation]
+[2025-01-25 12:13:26,935: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<<
+
+x============x]
+[2025-01-25 12:13:26,935: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<<<]
+[2025-01-25 12:13:26,937: ERROR: data_transformation_pipeline: Your data scheme is not valid]
+Traceback (most recent call last):
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 21, in initiate_data_transformation
+    raise Exception("Your data scheme is not valid")
+Exception: Your data scheme is not valid
+[2025-01-25 12:13:26,938: ERROR: main: Your data scheme is not valid]
+Traceback (most recent call last):
+  File "D:\MLops\End-to-End-DataScienceProject\main.py", line 31, in <module>
+    obj.initiate_data_transformation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 24, in initiate_data_transformation
+    raise e
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 21, in initiate_data_transformation
+    raise Exception("Your data scheme is not valid")
+Exception: Your data scheme is not valid
+[2025-01-25 12:14:10,121: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<<<]
+[2025-01-25 12:14:10,123: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 12:14:10,124: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 12:14:10,130: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 12:14:10,131: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 12:14:10,131: INFO: common: Craeted directory at:artifacts/data_ingestion]
+[2025-01-25 12:14:10,132: INFO: data_ingestion: File already exists]
+[2025-01-25 12:14:10,135: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<<
+
+x============x]
+[2025-01-25 12:14:10,136: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<<<]
+[2025-01-25 12:14:10,139: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 12:14:10,142: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 12:14:10,144: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 12:14:10,145: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 12:14:10,146: INFO: common: Craeted directory at:artifacts/data_validation]
+[2025-01-25 12:14:10,168: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<<
+
+x============x]
+[2025-01-25 12:14:10,169: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<<<]
+[2025-01-25 12:14:10,178: ERROR: data_transformation_pipeline: Your data scheme is not valid]
+Traceback (most recent call last):
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 21, in initiate_data_transformation
+    raise Exception("Your data scheme is not valid")
+Exception: Your data scheme is not valid
+[2025-01-25 12:14:10,179: ERROR: main: Your data scheme is not valid]
+Traceback (most recent call last):
+  File "D:\MLops\End-to-End-DataScienceProject\main.py", line 31, in <module>
+    obj.initiate_data_transformation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 24, in initiate_data_transformation
+    raise e
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 21, in initiate_data_transformation
+    raise Exception("Your data scheme is not valid")
+Exception: Your data scheme is not valid
+[2025-01-25 12:14:42,167: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<<<]
+[2025-01-25 12:14:42,170: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 12:14:42,170: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 12:14:42,172: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 12:14:42,173: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 12:14:42,173: INFO: common: Craeted directory at:artifacts/data_ingestion]
+[2025-01-25 12:16:07,161: INFO: data_ingestion: artifacts/data_ingestion/data.zip download ! with the following info:
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D2D8:08FD:2D56B:43532:6794880E
+Accept-Ranges: bytes
+Date: Sat, 25 Jan 2025 06:46:07 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100025-HYD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1737787567.124300,VS0,VE100
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d8e6b366984e5c201fb01755890389d916107b60
+Expires: Sat, 25 Jan 2025 06:51:07 GMT
+Source-Age: 160
+
+]
+[2025-01-25 12:16:08,831: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<<
+
+x============x]
+[2025-01-25 12:16:08,833: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<<<]
+[2025-01-25 12:16:08,840: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 12:16:08,843: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 12:16:08,855: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 12:16:08,856: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 12:16:08,857: INFO: common: Craeted directory at:artifacts/data_validation]
+[2025-01-25 12:16:08,884: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<<
+
+x============x]
+[2025-01-25 12:16:08,885: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<<<]
+[2025-01-25 12:16:08,886: ERROR: data_transformation_pipeline: Your data scheme is not valid]
+Traceback (most recent call last):
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 21, in initiate_data_transformation
+    raise Exception("Your data scheme is not valid")
+Exception: Your data scheme is not valid
+[2025-01-25 12:16:08,888: ERROR: main: Your data scheme is not valid]
+Traceback (most recent call last):
+  File "D:\MLops\End-to-End-DataScienceProject\main.py", line 31, in <module>
+    obj.initiate_data_transformation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 24, in initiate_data_transformation
+    raise e
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 21, in initiate_data_transformation
+    raise Exception("Your data scheme is not valid")
+Exception: Your data scheme is not valid
+[2025-01-25 12:18:29,851: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<<<]
+[2025-01-25 12:18:29,853: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 12:18:29,854: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 12:18:29,856: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 12:18:29,857: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 12:18:29,858: INFO: common: Craeted directory at:artifacts/data_ingestion]
+[2025-01-25 12:18:29,858: INFO: data_ingestion: File already exists]
+[2025-01-25 12:18:29,860: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<<
+
+x============x]
+[2025-01-25 12:18:29,861: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<<<]
+[2025-01-25 12:18:29,862: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 12:18:29,863: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 12:18:29,865: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 12:18:29,866: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 12:18:29,866: INFO: common: Craeted directory at:artifacts/data_validation]
+[2025-01-25 12:18:29,889: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<<
+
+x============x]
+[2025-01-25 12:18:29,889: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<<<]
+[2025-01-25 12:18:29,890: ERROR: data_transformation_pipeline: Your data scheme is not valid]
+Traceback (most recent call last):
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 22, in initiate_data_transformation
+    raise Exception("Your data scheme is not valid")
+Exception: Your data scheme is not valid
+[2025-01-25 12:18:29,891: ERROR: main: Your data scheme is not valid]
+Traceback (most recent call last):
+  File "D:\MLops\End-to-End-DataScienceProject\main.py", line 31, in <module>
+    obj.initiate_data_transformation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 25, in initiate_data_transformation
+    raise e
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 22, in initiate_data_transformation
+    raise Exception("Your data scheme is not valid")
+Exception: Your data scheme is not valid
+[2025-01-25 12:20:47,621: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<<<]
+[2025-01-25 12:20:47,623: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 12:20:47,624: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 12:20:47,626: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 12:20:47,627: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 12:20:47,627: INFO: common: Craeted directory at:artifacts/data_ingestion]
+[2025-01-25 12:22:12,615: INFO: data_ingestion: artifacts/data_ingestion/data.zip download ! with the following info:
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D2D8:08FD:2D56B:43532:6794880E
+Accept-Ranges: bytes
+Date: Sat, 25 Jan 2025 06:52:12 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100026-HYD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1737787932.423723,VS0,VE242
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1236a813bcb3f5045bfe0072d39716ff62718256
+Expires: Sat, 25 Jan 2025 06:57:12 GMT
+Source-Age: 0
+
+]
+[2025-01-25 12:22:12,652: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<<
+
+x============x]
+[2025-01-25 12:22:12,653: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<<<]
+[2025-01-25 12:22:12,655: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 12:22:12,656: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 12:22:12,658: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 12:22:12,659: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 12:22:12,660: INFO: common: Craeted directory at:artifacts/data_validation]
+[2025-01-25 12:22:12,679: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<<
+
+x============x]
+[2025-01-25 12:22:12,680: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<<<]
+[2025-01-25 12:22:12,682: ERROR: data_transformation_pipeline: Your data scheme is not valid]
+Traceback (most recent call last):
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 22, in initiate_data_transformation
+    raise Exception("Your data scheme is not valid")
+Exception: Your data scheme is not valid
+[2025-01-25 12:22:12,683: ERROR: main: Your data scheme is not valid]
+Traceback (most recent call last):
+  File "D:\MLops\End-to-End-DataScienceProject\main.py", line 31, in <module>
+    obj.initiate_data_transformation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 25, in initiate_data_transformation
+    raise e
+  File "D:\MLops\End-to-End-DataScienceProject\src\datascience\pipeline\data_transformation_pipeline.py", line 22, in initiate_data_transformation
+    raise Exception("Your data scheme is not valid")
+Exception: Your data scheme is not valid
+[2025-01-25 12:26:22,134: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<<<]
+[2025-01-25 12:26:22,136: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 12:26:22,137: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 12:26:22,139: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 12:26:22,140: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 12:26:22,141: INFO: common: Craeted directory at:artifacts/data_ingestion]
+[2025-01-25 12:26:22,141: INFO: data_ingestion: File already exists]
+[2025-01-25 12:26:22,144: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<<
+
+x============x]
+[2025-01-25 12:26:22,145: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<<<]
+[2025-01-25 12:26:22,147: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 12:26:22,149: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 12:26:22,154: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 12:26:22,155: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 12:26:22,155: INFO: common: Craeted directory at:artifacts/data_validation]
+[2025-01-25 12:26:22,176: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<<
+
+x============x]
+[2025-01-25 12:26:22,177: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<<<]
+[2025-01-25 12:26:22,182: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-01-25 12:26:22,183: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-01-25 12:26:22,185: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-01-25 12:26:22,186: INFO: common: Craeted directory at:artifacts]
+[2025-01-25 12:26:22,187: INFO: common: Craeted directory at:artifacts/data_transformation]
+[2025-01-25 12:26:22,528: INFO: data_transformation: Splitted data into training and test sets]
+[2025-01-25 12:26:22,529: INFO: data_transformation: (1199, 12)]
+[2025-01-25 12:26:22,530: INFO: data_transformation: (400, 12)]
+[2025-01-25 12:26:22,532: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<<
+
+x============x]
